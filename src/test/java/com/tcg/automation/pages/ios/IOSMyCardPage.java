@@ -13,9 +13,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by rajkumar.engu on 31/01/18.
- */
+
 @Lazy
 @Component
 public class IOSMyCardPage extends IOSAbstractPage{

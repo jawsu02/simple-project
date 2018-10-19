@@ -10,9 +10,7 @@ import org.springframework.context.annotation.Conditional;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
-/**
- * Created by rajkumar.engu on 06/02/18.
- */
+
 @Profile("APP")
 @Configuration
 public class PlatformLoaderConfig {

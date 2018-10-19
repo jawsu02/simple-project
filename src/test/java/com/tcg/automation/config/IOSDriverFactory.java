@@ -9,9 +9,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by rajkumar.engu on 05/02/18.
- */
+
 
 public class IOSDriverFactory implements FactoryBean<IOSDriver> {
 

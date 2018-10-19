@@ -9,9 +9,7 @@ import static junit.framework.TestCase.assertFalse;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-/**
- * Created by rajkumar.engu on 31/01/18.
- */
+
 @Component("IOS")
 public class IOSPageStrategy implements PageStrategy {
 

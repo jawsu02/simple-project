@@ -7,9 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 
-/**
- * Created by rajkumar.engu on 31/01/18.
- */
+
 @Lazy
 @Component
 public class AndroidMyCardPage extends AndroidAbstractPage {

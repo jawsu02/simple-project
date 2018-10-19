@@ -13,9 +13,7 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by rajkumar.engu on 06/02/18.
- */
+
 @Lazy
 @Component
 public class IOSAccountPage extends IOSAbstractPage {

@@ -7,9 +7,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.springframework.beans.factory.annotation.Autowired;
 
-/**
- * Created by rajkumar.engu on 31/01/18.
- */
+
 public class LoginStep {
     @Autowired
     private SessionVariablesApp sessionVariablesApp;

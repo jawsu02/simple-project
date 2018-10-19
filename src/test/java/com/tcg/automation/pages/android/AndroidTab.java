@@ -10,9 +10,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by rajkumar.engu on 02/02/18.
- */
+
 @Lazy
 @Component
 public class AndroidTab extends AndroidAbstractPage {

@@ -8,9 +8,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-/**
- * Created by rajkumar.engu on 02/02/18.
- */
+
 @Lazy
 @Component
 public class AndroidAccountPage extends AndroidAbstractPage {

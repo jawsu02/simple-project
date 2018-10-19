@@ -9,9 +9,7 @@ import org.springframework.context.annotation.Profile;
 
 import javax.annotation.Resource;
 
-/**
- * Created by rajkumar.engu on 01/02/18.
- */
+
 public class Hooks {
 
     @Autowired

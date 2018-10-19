@@ -2,9 +2,7 @@ package com.tcg.automation.strategy;
 
 import org.springframework.stereotype.Component;
 
-/**
- * Created by rajkumar.engu on 01/02/18.
- */
+
 @Component
 public interface PageStrategy {
 
