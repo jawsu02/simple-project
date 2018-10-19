@@ -1,0 +1,39 @@
+DEFAULT:
+  username: goodprisma
+  password: password66
+DMC:
+  username: uat_withdmc1
+  password: password66
+NON_DMC:
+  username: uatwithoutdmc1
+  password: password66
+USER_WITH_VISITS:
+  username: uatb2c2609
+  password: password66
+EXPIRED_DMC:
+  username: uatexpireddmc1
+  password: password66
+RTA_ENABLED:
+  username: rta01
+  password: footie14
+RTA_DISABLED:
+  username: rta02
+  password: footie14
+MEMBER_ALLOCATIONS_ONLY:
+  username: b2cstd01
+  password: footie14
+SHARED_ALLOCATIONS:
+  username: vsndf01
+  password: footie14
+INFINITE_ALLOCATIONS:
+  username: b2cpr01
+  password: footie14
+LIMITED_ALLOCATIONS:
+  username: b2cstdpls01
+  password: footie14
+B2C_USER:
+  username: tim05
+  password: footie14
+B2B_WHOLESALE_USER:
+  username: melia01
+  password: footie14

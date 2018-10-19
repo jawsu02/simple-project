@@ -1,0 +1,18 @@
+{
+  "type":"object",
+  "$schema": "http://json-schema.org/draft-03/schema",
+  "id": "http://jsonschema.net",
+  "required":false,
+  "properties":{
+    "MIMEType": {
+      "type":"string",
+      "id": "http://jsonschema.net/MIMEType",
+      "required":true
+    },
+    "Payload": {
+      "type":"string",
+      "id": "http://jsonschema.net/Payload",
+      "required":true
+    }
+  }
+}

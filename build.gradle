@@ -1,0 +1,131 @@
+plugins {
+    id "com.github.samueltbrown.cucumber" version "0.9"
+}
+apply plugin: 'java'
+
+group = 'com.tcg.automation'
+version = '1.0-SNAPSHOT'
+description = "All In One"
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+task cucumberAndroidEmulatorTests() {
+    dependsOn assemble, compileTestJava
+    doLast {
+        javaexec {
+            systemProperty "PLATFORM", "ANDROID"
+            systemProperty "REAL_DEVICE", "FALSE"
+            systemProperty "spring.profiles.active", "APP"
+            main = "cucumber.api.cli.Main"
+            classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
+            args = ['--tags', '@ANDROID', '--plugin', 'html:target/tcg/AndroidEmulator', '--glue', 'com.tcg.automation', 'src/test/resources']
+        }
+    }
+}
+
+task cucumberAndroidDeviceTests() {
+    dependsOn assemble, compileTestJava
+    doLast {
+        javaexec {
+            systemProperty "PLATFORM", "ANDROID"
+            systemProperty "REAL_DEVICE", "TRUE"
+            systemProperty "spring.profiles.active", "APP"
+            main = "cucumber.api.cli.Main"
+            classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
+            args = ['--tags', '@ANDROID', '--plugin', 'html:target/tcg/AndroidDevice', '--glue', 'com.tcg.automation', 'src/test/resources']
+        }
+    }
+}
+
+task cucumberIOSSimulatorTests() {
+    dependsOn assemble, compileTestJava
+    doLast {
+        javaexec {
+            systemProperty "PLATFORM", "IOS"
+            systemProperty "REAL_DEVICE", "FALSE"
+            systemProperty "spring.profiles.active", "APP"
+            main = "cucumber.api.cli.Main"
+            classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
+            args = ['--tags', '@IOS', '--plugin', 'html:target/tcg/iOSSimulator', '--glue', 'com.tcg.automation', 'src/test/resources']
+        }
+    }
+}
+
+task cucumberIOSDeviceTests() {
+    dependsOn assemble, compileTestJava
+    doLast {
+        javaexec {
+            systemProperty "PLATFORM", "IOS"
+            systemProperty "REAL_DEVICE", "TRUE"
+            systemProperty "spring.profiles.active", "APP"
+            main = "cucumber.api.cli.Main"
+            classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
+            args = ['--tags', '@IOS', '--plugin', 'html:target/tcg/iOSDevice', '--glue', 'com.tcg.automation', 'src/test/resources']
+        }
+    }
+}
+
+task RunWebTests() {
+    dependsOn assemble, compileTestJava
+    doLast {
+        javaexec {
+            systemProperty "PLATFORM", "WEB"
+            systemProperty "spring.profiles.active", "APP"
+            main = "cucumber.api.cli.Main"
+            classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
+            args = ['--tags', '@Test', '--plugin', 'html:target/tcg/WEB', '--glue', 'com.tcg.automation', 'src/test/resources']
+        }
+    }
+}
+
+task RunApiTests() {
+    dependsOn assemble, compileTestJava
+    doLast {
+        javaexec {
+            systemProperty "spring.profiles.active", "UAT"
+            main = "cucumber.api.cli.Main"
+            classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
+            args = ['--tags', '@Test', '--plugin', 'html:target/tcg/ApiTestsOnUAT', '--glue', 'com.tcg.automation', 'src/test/resources']
+        }
+    }
+}
+
+task RunAppiumTestsAgainstMock() {
+    dependsOn assemble, compileTestJava
+    doLast {
+        javaexec {
+            systemProperty "PLATFORM", "ANDROID"
+            systemProperty "REAL_DEVICE", "FALSE"
+            systemProperty "BACKEND", "MOCK"
+            systemProperty "spring.profiles.active", "APP"
+            main = "cucumber.api.cli.Main"
+            classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
+            args = ['--tags', '@Test', '--plugin', 'html:target/tcg/Test', '--glue', 'com.tcg.automation', 'src/test/resources']
+        }
+    }
+}
+dependencies {
+    compile group: 'io.appium', name: 'java-client', version: '5.0.4'
+    compile group: 'org.springframework', name: 'spring-core', version: '5.0.3.RELEASE'
+    compile group: 'org.springframework', name: 'spring-context', version: '5.0.3.RELEASE'
+    compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.5'
+    compile group: 'com.github.tomakehurst', name: 'wiremock', version: '2.14.0'
+    compile group: 'joda-time', name: 'joda-time', version: '2.9.9'
+    compile group: 'org.yaml', name: 'snakeyaml', version: '1.8'
+    compile group: 'io.rest-assured', name: 'json-schema-validator', version: '3.0.7'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.9.1'
+
+    testCompile group: 'io.cucumber', name: 'cucumber-java', version: '2.3.1'
+    testCompile group: 'io.cucumber', name: 'cucumber-junit', version: '2.3.1'
+    testCompile group: 'io.cucumber', name: 'cucumber-spring', version: '2.3.1'
+    testCompile group: 'io.cucumber', name: 'cucumber-jvm-deps', version: '1.0.6'
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile group: 'io.rest-assured', name: 'rest-assured', version: '3.0.7'
+    testCompile group: 'org.assertj', name: 'assertj-core', version: '3.9.0'
+    testCompile group: 'com.microsoft.sqlserver', name: 'mssql-jdbc', version: '6.1.0.jre8'
+}

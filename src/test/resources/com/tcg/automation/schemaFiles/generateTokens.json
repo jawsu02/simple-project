@@ -1,0 +1,74 @@
+
+
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "definitions": {},
+  "id": "http://example.com/example.json",
+  "items": {
+    "id": "/items",
+    "properties": {
+      "DeviceId": {
+        "default": "string",
+        "description": "An explanation about the purpose of this instance.",
+        "examples": [
+          "string"
+        ],
+        "id": "/items/properties/DeviceId",
+        "title": "The deviceid schema.",
+        "type": "string"
+      },
+      "Href": {
+        "default": "string",
+        "description": "An explanation about the purpose of this instance.",
+        "examples": [
+          "string"
+        ],
+        "id": "/items/properties/Href",
+        "title": "The href schema.",
+        "type": "string"
+      },
+      "Status": {
+        "default": "string",
+        "description": "An explanation about the purpose of this instance.",
+        "examples": [
+          "string"
+        ],
+        "id": "/items/properties/Status",
+        "title": "The status schema.",
+        "type": "string"
+      },
+      "TokenId": {
+        "default": 0,
+        "description": "An explanation about the purpose of this instance.",
+        "examples": [
+          "0"
+        ],
+        "id": "/items/properties/TokenId",
+        "title": "The tokenid schema.",
+        "type": "integer"
+      },
+      "ValidFrom": {
+        "default": "2017-10-20T07:48:05.493Z",
+        "description": "An explanation about the purpose of this instance.",
+        "examples": [
+          "2017-10-20T07:48:05.493Z"
+        ],
+        "id": "/items/properties/ValidFrom",
+        "title": "The validfrom schema.",
+        "type": "string"
+      },
+      "ValidTo": {
+        "default": "2017-10-20T07:48:05.493Z",
+        "description": "An explanation about the purpose of this instance.",
+        "examples": [
+          "2017-10-20T07:48:05.493Z"
+        ],
+        "id": "/items/properties/ValidTo",
+        "title": "The validto schema.",
+        "type": "string"
+      }
+    },
+    "type": "object"
+  },
+  "type": "array"
+}

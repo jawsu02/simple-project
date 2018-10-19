@@ -1,0 +1,106 @@
+{
+  "Title": "Mr.",
+  "Initial": "",
+  "Forename": "Rajkumar",
+  "Surname": "Engu",
+  "CountryOfResidence": "GBR",
+  "DateOfBirth": "1997-10-10T00:00:00",
+  "LanguageCode": "EN",
+  "InvitationCode": "",
+  "PrimaryProduct": "PP",
+  "ServiceCentre": "L",
+  "CreatedBy": "PPWEBAPP",
+  "Username": "uatb2c2609",
+  "DeliveryAddress": {
+    "CompanyName": "",
+    "AddressLine1": "123 Test Street",
+    "AddressLine2": "",
+    "AddressLine3": "",
+    "City": "London",
+    "USStateCode": "",
+    "Province": "",
+    "ISOCountryCode": "GBR",
+    "PostCode": "EC3A7BU",
+    "IsBusinessAddress": false
+  },
+  "BillingAddress": {
+    "CompanyName": "",
+    "AddressLine1": "123 Test Street",
+    "AddressLine2": "",
+    "AddressLine3": "",
+    "City": "London",
+    "USStateCode": "",
+    "Province": "",
+    "ISOCountryCode": "GBR",
+    "PostCode": "EC3A7BU",
+    "IsBusinessAddress": false
+  },
+  "ConsumerCommunication": {
+    "PreferredISOLanguageCode": "en",
+    "ProductOffers": false,
+    "GroupOffers": false,
+    "PhysicalDirectory": false
+  },
+  "ConsumerSecurity": {
+    "QuestionCode": "Q2003",
+    "Email": "hayder.ali@mailinator.com"
+  },
+  "ProspectSource": {
+    "ConsumerStatus": "",
+    "ProductCode": "PP",
+    "SourceCode": "WPUN"
+  },
+  "Telephone": "44123568",
+  "AlternativeTelephone": "",
+  "PhoneNumber": {
+    "Number": "44123568",
+    "IsTextable": false
+  },
+  "AlternativePhoneNumber": {
+    "Number": "",
+    "IsTextable": false
+  },
+  "PaymentCards": {
+    "LOUNGE_VISIT": {
+      "CardType": "VS",
+      "CardNumber": "************0007",
+      "CardExpiry": "10/22",
+      "CardHolderName": "MR TEST USER"
+    },
+    "MEMBERSHIP": {
+      "CardType": "VS",
+      "CardNumber": "************0007",
+      "CardExpiry": "10/22",
+      "CardHolderName": "MR TEST USER"
+    }
+  },
+  "CardholderName": "MR TEST USER",
+  "Gender": "M",
+  "IsMember": true,
+  "AllowedWebsiteLogin": true,
+  "MembershipNumber": "1418101105",
+  "SourceCode": "WPUN",
+  "CurrentDMCBarcode": "PP/080218/MR TEST USER/0918/1418101105//1/AA518C",
+  "MembershipExpiry": "2018-09-25T00:00:00",
+  "ConsumerType": "FULL",
+  "HasDeclinedPayment": false,
+  "IsAutoRenewalAvailable": false,
+  "IsAssignedAutoRenewal": true,
+  "IsMembershipDueToExpire": false,
+  "IsTripTrackerAvailable": true,
+  "IsDMCAvailable": true,
+  "MembershipCreation": "2017-09-26T00:00:00",
+  "SubscriptionLevelId": 1,
+  "HasCompletedRegistration": true,
+  "RegistrationCompletionType": null,
+  "MembershipStart": "2017-09-26T00:00:00",
+  "ConsumerModel": null,
+  "ObfuscatedPan": "",
+  "OnwardBilling": false,
+  "OfferSetId": 2,
+  "IsEmailValid": true,
+  "AuthenticationDetails": {
+    "RequiresAuthentication": false,
+    "Status": "NOTAPPLICABLE"
+  }
+}

@@ -1,0 +1,407 @@
+{
+  "Succeeded": true,
+  "Message": null,
+  "StaticPages": null,
+  "GenericPages": null,
+  "Faqs": {
+    "Succeeded": true,
+    "Message": null,
+    "TopFaq": {
+      "Title": "Top 5 FAQ",
+      "Items": [{
+        "Question": "Can my membership card be used by any other member",
+        "Answer": "No. The Priority Pass membership card is non-transferable. When you access a lounge, the staff will check that the name on your card matches your boarding pass.",
+        "Categories": [{
+          "FriendlyName": "Managing-your-membership",
+          "Text": "Managing your membership"
+        }]
+      }, {
+        "Question": "When will I receive my membership card?",
+        "Answer": "Your physical Priority Pass membership card will be dispatched within 3 days of confirmation of your membership. To see our estimated delivery times please go to prioritypass.com/delivery-guidelines. Meanwhile, you can download your Digital Membership Card from your online account.",
+        "Categories": [{
+          "FriendlyName": "Your-Membership-Card",
+          "Text": "Your Membership Card (physical and digital)"
+        }]
+      }, {
+        "Question": "How do I find out whether there's a lounge in the airport I'm flying through?",
+        "Answer": "Up-to-date details of lounges currently in our program are on our website: prioritypass.com/lounges or use the lounge search function within the Priority Pass app.",
+        "Categories": [{
+          "FriendlyName": "Using-our-Lounges",
+          "Text": "Using our Lounges"
+        }]
+      }, {
+        "Question": "How do I apply for a Priority Pass membership?",
+        "Answer": "You can apply online at prioritypass.com/join, or by contacting our Membership Services team, prioritypass.com/contact.",
+        "Categories": [{
+          "FriendlyName": "Becoming-a-Priority-Pass-Member",
+          "Text": "Becoming a Priority Pass Member"
+        }]
+      }, {
+        "Question": "How do I ensure that the lounge information on my Priority Pass app is up to date?",
+        "Answer": "If you haven't updated the lounge information on your app for a period of longer than 30 days you'll receive a reminder message when you open the app. It's also possible to update the lounge information at any time. We recommend that you update the lounge information when you're connected to Wi-Fi so as not to use too much of your data allowance.",
+        "Categories": [{
+          "FriendlyName": "Priority-Pass-app",
+          "Text": "Priority Pass App"
+        }]
+      }]
+    },
+    "Faq": [{
+      "Category": {
+        "FriendlyName": "Becoming-a-Priority-Pass-Member",
+        "Text": "Becoming a Priority Pass Member"
+      },
+      "Items": [{
+        "Question": "What is Priority Pass?",
+        "Answer": "Priority Pass is the world’s leading airport lounge access program, providing an airport lounge for wherever your travel takes you. We offer three membership plans – Standard, Standard Plus and Prestige - so regardless if you travel infrequently or are a seasoned, regular traveler, Priority Pass can ensure that your journey always begins stress-free in one of 1000+ airport lounges worldwide. For more information go to prioritypass.com/join",
+        "Categories": [{
+          "FriendlyName": "Becoming-a-Priority-Pass-Member",
+          "Text": "Becoming a Priority Pass Member"
+        }]
+      }, {
+        "Question": "How do I apply for a Priority Pass membership?",
+        "Answer": "You can apply online at prioritypass.com/join, or by contacting our Membership Services team, prioritypass.com/contact.",
+        "Categories": [{
+          "FriendlyName": "Becoming-a-Priority-Pass-Member",
+          "Text": "Becoming a Priority Pass Member"
+        }]
+      }, {
+        "Question": "What plans are available?",
+        "Answer": "To view our membership plans go to prioritypass.com/join.",
+        "Categories": [{
+          "FriendlyName": "Becoming-a-Priority-Pass-Member",
+          "Text": "Becoming a Priority Pass Member"
+        }]
+      }, {
+        "Question": "Do you have a Family Membership option?",
+        "Answer": "We offer a Partner Standard Membership at half price. Please contact our Membership Services team for more information, prioritypass.com/contact.",
+        "Categories": [{
+          "FriendlyName": "Becoming-a-Priority-Pass-Member",
+          "Text": "Becoming a Priority Pass Member"
+        }]
+      }, {
+        "Question": "What payment methods do you accept?",
+        "Answer": "We accept Visa, Visa Debit (except Asia Pacific), MasterCard, American Express and Diners Club. Please note that we don't accept checks or bank transfers.",
+        "Categories": [{
+          "FriendlyName": "Becoming-a-Priority-Pass-Member",
+          "Text": "Becoming a Priority Pass Member"
+        }]
+      }, {
+        "Question": "Is there an age restriction on Priority Pass membership?",
+        "Answer": "You must be at least 18 years old to enrol as a Member on the Priority Pass program.",
+        "Categories": [{
+          "FriendlyName": "Becoming-a-Priority-Pass-Member",
+          "Text": "Becoming a Priority Pass Member"
+        }]
+      }, {
+        "Question": "What are the main benefits of being a Priority Pass member?",
+        "Answer": "· Access to over 1000 airport lounges worldwide · Complimentary drinks, refreshments and pre-flight bites including alcohol in most lounges · Space to work or relax in a place that feels like home · Free Wi-Fi in most lounges · Comfortable seats and quiet spaces · The latest magazines and newspapers · Power sockets to give your devices a boost · Conference rooms, showers, beds and spa facilities in selected lounges",
+        "Categories": [{
+          "FriendlyName": "Becoming-a-Priority-Pass-Member",
+          "Text": "Becoming a Priority Pass Member"
+        }]
+      }, {
+        "Question": "Are my details secure on your website?",
+        "Answer": "Yes. Your data is protected by SSL security. We are also audited for PCI compliance, for your peace of mind.",
+        "Categories": [{
+          "FriendlyName": "Becoming-a-Priority-Pass-Member",
+          "Text": "Becoming a Priority Pass Member"
+        }]
+      }, {
+        "Question": "How do I contact you?",
+        "Answer": "You can contact our Membership Services team by phone or email. Please visit prioritypass.com/contact.",
+        "Categories": [{
+          "FriendlyName": "Becoming-a-Priority-Pass-Member",
+          "Text": "Becoming a Priority Pass Member"
+        }]
+      }, {
+        "Question": "Will I be able to access a lounge as soon as I've joined?",
+        "Answer": "Once you've completed the joining process, you can download your personalized Priority Pass Digital Membership Card, which allows you instant access to the majority of the 1000+ lounges in our program. Your physical membership card – which is accepted at all the lounges in our program – will be dispatched within 3 business days of your application being accepted.",
+        "Categories": [{
+          "FriendlyName": "Becoming-a-Priority-Pass-Member",
+          "Text": "Becoming a Priority Pass Member"
+        }]
+      }]
+    }, {
+      "Category": {
+        "FriendlyName": "Managing-your-membership",
+        "Text": "Managing your membership"
+      },
+      "Items": [{
+        "Question": "How do I renew my Priority Pass membership?",
+        "Answer": "Contact your regional Membership Services center, prioritypass.com/contact, for support with renewing your membership. Please include your membership number when you contact us.",
+        "Categories": [{
+          "FriendlyName": "Managing-your-membership",
+          "Text": "Managing your membership"
+        }]
+      }, {
+        "Question": "How do I update my personal details?",
+        "Answer": "Depending on the type of membership you have, you may be able to update certain details online through your Priority Pass online account, or by using the Priority Pass app. Alternatively, please contact our Membership Services team, prioritypass.com/contact.",
+        "Categories": [{
+          "FriendlyName": "Managing-your-membership",
+          "Text": "Managing your membership"
+        }]
+      }, {
+        "Question": "How do I upgrade/downgrade my membership?",
+        "Answer": "Depending on the type of membership you have, our Membership Services team will be happy to change your membership for you at the end of your current membership term. It's not possible to change plans during your membership term.",
+        "Categories": [{
+          "FriendlyName": "Managing-your-membership",
+          "Text": "Managing your membership"
+        }]
+      }, {
+        "Question": "How do I make a complaint?",
+        "Answer": "  Please either: a. call us on +44 20 8680 1338 (UK), +852 2866 1964 (Hong Kong), or +1 972 735 0536 (USA) b. write to Priority Pass, PO Box 815, Haywards Heath, RH16 9LR, England or c. email info@prioritypass.com Please include your name and Priority Pass membership number in all correspondence. If your complaint relates to a lounge visit, please also include the name of the relevant lounge and airport, and the date and time of your visit. Please include your name and Priority Pass membership number in all correspondence. If your complaint relates to a lounge visit, please also include the name of the relevant lounge and airport, and the date and time of your visit.  In the unlikely event that our Customer Service team are unable to resolve your complaint, and you are still not satisfied following the conclusion of our complaints handling procedure,  if your membership number begins 141 and is therefore supported through our UK office,  you may refer your complaint to The Retail Ombudsman, which is a certified Alternative Dispute Resolution provider. We will respond to any complaint referred to us by them. The Retail Ombudsman, 33 floor Euston Towers, 286 Euston Road, London, NW1 3DP Email: enquiries@theretailombudsman.org.uk – Web: www.theretailombudsman.org.uk  Tel: 0203 137 8268  Alternatively, if your complaint is regarding goods or services purchased from prioritypass.com, and you are not satisfied with the resolution we have provided,  the EU Online Dispute Resolution platform is available at www.ec.europa.eu/consumers/odr Please note following submission of your complaint on the EU platform you will be directed to The Retail Ombudsman. You may therefore refer your complaint directly to them.    ",
+        "Categories": [{
+          "FriendlyName": "Managing-your-membership",
+          "Text": "Managing your membership"
+        }]
+      }, {
+        "Question": "Can inclusive visits be transferred to my next membership year?",
+        "Answer": "Unfortunately, it's not possible to transfer inclusive visits to your next membership year or to another Member’s account.",
+        "Categories": [{
+          "FriendlyName": "Managing-your-membership",
+          "Text": "Managing your membership"
+        }]
+      }, {
+        "Question": "Can I use my inclusive visits to pay for my guest’s visits?",
+        "Answer": "No, inclusive visits may only be used by the Member named on the Priority Pass membership card.",
+        "Categories": [{
+          "FriendlyName": "Managing-your-membership",
+          "Text": "Managing your membership"
+        }]
+      }, {
+        "Question": "Can my membership card be used by any other member",
+        "Answer": "No. The Priority Pass membership card is non-transferable. When you access a lounge, the staff will check that the name on your card matches your boarding pass.",
+        "Categories": [{
+          "FriendlyName": "Managing-your-membership",
+          "Text": "Managing your membership"
+        }]
+      }, {
+        "Question": "How do I unsubscribe from a membership communication?",
+        "Answer": "Log in to your online Priority Pass account, where you can change your mailing settings under the 'My Details' tab. To unsubscribe from the Priority Pass e-newsletter, use the unsubscribe function which you'll find at the bottom of every newsletter. Alternatively, please contact our Membership Services team, who will be happy to help, prioritypass.com/contact.",
+        "Categories": [{
+          "FriendlyName": "Managing-your-membership",
+          "Text": "Managing your membership"
+        }]
+      }, {
+        "Question": "How do I cancel my membership?",
+        "Answer": "Contact our Membership Services team, prioritypass.com/contact. Please have your membership number to hand when you call.",
+        "Categories": [{
+          "FriendlyName": "Managing-your-membership",
+          "Text": "Managing your membership"
+        }]
+      }]
+    }, {
+      "Category": {
+        "FriendlyName": "Your-Membership-Card",
+        "Text": "Your Membership Card (physical and digital)"
+      },
+      "Items": [{
+        "Question": "When will I receive my membership card?",
+        "Answer": "Your physical Priority Pass membership card will be dispatched within 3 days of confirmation of your membership. To see our estimated delivery times please go to prioritypass.com/delivery-guidelines. Meanwhile, you can download your Digital Membership Card from your online account.",
+        "Categories": [{
+          "FriendlyName": "Your-Membership-Card",
+          "Text": "Your Membership Card (physical and digital)"
+        }]
+      }, {
+        "Question": "Can I access a lounge without my membership card?",
+        "Answer": "Lounge access is only available on presentation of a valid Priority Pass membership card. The majority of our 1000+ lounges also accept the Priority Pass Digital Membership Card. For all others, please show your physical membership card. We recommend you always carry both cards with you.",
+        "Categories": [{
+          "FriendlyName": "Your-Membership-Card",
+          "Text": "Your Membership Card (physical and digital)"
+        }]
+      }, {
+        "Question": "I haven't received my membership card. What should I do?",
+        "Answer": "Your Priority Pass membership card will be dispatched within 3 business days of you joining Priority Pass, or requesting a replacement card. Delivery time varies dependent on your location. Please visit prioritypass.com/delivery-guidelines for the most up-to-date information. In the meantime, you may be able to use your Priority Pass Digital Membership Card, which you can download from the ‘My Account’ area of the website.",
+        "Categories": [{
+          "FriendlyName": "Your-Membership-Card",
+          "Text": "Your Membership Card (physical and digital)"
+        }]
+      }, {
+        "Question": "What happens if my membership card has been lost or stolen?",
+        "Answer": "Lost, stolen or damaged Priority Pass membership cards should be reported immediately to our Membership Services team, who will provide you with a replacement membership card, issued within 3 working days. Delivery time varies depending on location. Please visit prioritypass.com/delivery-guidelines for more information.",
+        "Categories": [{
+          "FriendlyName": "Your-Membership-Card",
+          "Text": "Your Membership Card (physical and digital)"
+        }]
+      }, {
+        "Question": "How do I use my Digital Membership Card?",
+        "Answer": "The Priority Pass Digital Membership Card provides card-free access to the majority of our lounges using a 2D barcode found in the smartphone app or in the My Account section of our website. Not all of our lounges can be accessed with the Digital Membership Card, so please carry your Priority Pass membership card whenever you travel.",
+        "Categories": [{
+          "FriendlyName": "Your-Membership-Card",
+          "Text": "Your Membership Card (physical and digital)"
+        }]
+      }, {
+        "Question": "Do I still need my physical membership card if I have my Digital Membership Card?",
+        "Answer": "The majority of our 1000+ lounges accept the Priority Pass Digital Membership Card, but we recommend that you also carry your physical card with you at all times.",
+        "Categories": [{
+          "FriendlyName": "Your-Membership-Card",
+          "Text": "Your Membership Card (physical and digital)"
+        }]
+      }, {
+        "Question": "Do I need to activate my membership card?",
+        "Answer": "You don't need to activate your Priority Pass membership card. You can use your Digital Membership Card from the moment your application is accepted, at any lounge with digital card acceptance facilities (please check our app or website for details).",
+        "Categories": [{
+          "FriendlyName": "Your-Membership-Card",
+          "Text": "Your Membership Card (physical and digital)"
+        }]
+      }, {
+        "Question": "Can I take guests into a lounge using my membership card?",
+        "Answer": "You can invite friends or guests to join you in a lounge. Most lounges will allow any number of guests, but where limits apply they'll be shown within the lounge information pages on our app or website. Guests are charged at the prevailing rate of £15/€24/US$27 each. When you enter the lounge you'll be asked to sign to confirm the number of guests, either on a digital screen or on a paper voucher. It's your responsibility to ensure the details are correct before signing. Errors should be mentioned to lounge staff before leaving. The lounge visit fee will be charged directly to your nominated payment card.",
+        "Categories": [{
+          "FriendlyName": "Your-Membership-Card",
+          "Text": "Your Membership Card (physical and digital)"
+        }]
+      }, {
+        "Question": "How do I arrange for a replacement of my physical membership card to be sent?",
+        "Answer": "Contact our Membership Services team who will arrange for your physical membership card to be dispatched in three business days. Delivery times are location dependent. Please visit prioritypass.com/delivery-guidelines for the most up-to-date information. In the meantime, you may be able to use your Priority Pass Digital Membership Card, which you can download from the ‘My Account’ area of our website.",
+        "Categories": [{
+          "FriendlyName": "Your-Membership-Card",
+          "Text": "Your Membership Card (physical and digital)"
+        }]
+      }]
+    }, {
+      "Category": {
+        "FriendlyName": "Using-our-Lounges",
+        "Text": "Using our Lounges"
+      },
+      "Items": [{
+        "Question": "How do I find out whether there's a lounge in the airport I'm flying through?",
+        "Answer": "Up-to-date details of lounges currently in our program are on our website: prioritypass.com/lounges or use the lounge search function within the Priority Pass app.",
+        "Categories": [{
+          "FriendlyName": "Using-our-Lounges",
+          "Text": "Using our Lounges"
+        }]
+      }, {
+        "Question": "Why have I been denied access to a lounge on the Priority Pass program?",
+        "Answer": "We apologize for the inconvenience. Sometimes lounge operators will impose restrictions based on lounge capacity, to ensure guests have a pleasant experience.",
+        "Categories": [{
+          "FriendlyName": "Using-our-Lounges",
+          "Text": "Using our Lounges"
+        }]
+      }, {
+        "Question": "Do I need to make a reservation for lounge access?",
+        "Answer": "As a Priority Pass Member you don't need to book your lounge visit. Simply present your card to the lounge staff on arrival. Please check the lounge information on our website or app before your visit to confirm opening times and facilities available.",
+        "Categories": [{
+          "FriendlyName": "Using-our-Lounges",
+          "Text": "Using our Lounges"
+        }]
+      }, {
+        "Question": "What is your lounge guest policy?",
+        "Answer": "You're welcome to take guests with you into the lounge. You'll be charged a per-person, per-visit fee for guests. The number of accompanying guests allowed varies between lounges, so please check before your visit, using our website prioritypass.com/lounges or the Priority Pass app.",
+        "Categories": [{
+          "FriendlyName": "Using-our-Lounges",
+          "Text": "Using our Lounges"
+        }]
+      }, {
+        "Question": "Can I take children into the lounge?",
+        "Answer": "Many lounges will allow entry for children at the prevailing guest rate of £15/€24/US$27 each. For lounges where limits apply, details are available on our website or via the lounge finder on our smartphone app.",
+        "Categories": [{
+          "FriendlyName": "Using-our-Lounges",
+          "Text": "Using our Lounges"
+        }]
+      }, {
+        "Question": "Where can I find lounge information?",
+        "Answer": "You can find details of all lounges currently in our program on our website prioritypass.com/lounges, or by downloading our handy Priority Pass app from the relevant app store.",
+        "Categories": [{
+          "FriendlyName": "Using-our-Lounges",
+          "Text": "Using our Lounges"
+        }]
+      }, {
+        "Question": "Can I view my lounge visit history online?",
+        "Answer": "Yes, log in to My Account where you can view all of your visit history.",
+        "Categories": [{
+          "FriendlyName": "Using-our-Lounges",
+          "Text": "Using our Lounges"
+        }]
+      }, {
+        "Question": "If I'm flying from one Terminal and the lounge is in another, can I still access it?",
+        "Answer": "It depends on the location of the lounge. Unfortunately the Priority Pass membership card won't allow you to pass through any security restrictions to access other parts of the airport.",
+        "Categories": [{
+          "FriendlyName": "Using-our-Lounges",
+          "Text": "Using our Lounges"
+        }]
+      }, {
+        "Question": "Are the lounges actually run by Priority Pass?",
+        "Answer": "No. Lounges on the Priority Pass program are managed by third party suppliers including airport authorities, ground handling agents and airlines.",
+        "Categories": [{
+          "FriendlyName": "Using-our-Lounges",
+          "Text": "Using our Lounges"
+        }]
+      }]
+    }, {
+      "Category": {
+        "FriendlyName": "Priority-Pass-app",
+        "Text": "Priority Pass App"
+      },
+      "Items": [{
+        "Question": "My username and / or password is not being accepted – how can I access the app?",
+        "Answer": "It's possible to view the lounge finder within the Priority Pass app without logging in. To get a reminder of your user name or password, click the “forgotten login details” link on the login page and provide the details requested. Alternatively, please contact our Membership Services team at prioritypass.com/contact",
+        "Categories": [{
+          "FriendlyName": "Priority-Pass-app",
+          "Text": "Priority Pass App"
+        }]
+      }, {
+        "Question": "How do I ensure that the lounge information on my Priority Pass app is up to date?",
+        "Answer": "If you haven't updated the lounge information on your app for a period of longer than 30 days you'll receive a reminder message when you open the app. It's also possible to update the lounge information at any time. We recommend that you update the lounge information when you're connected to Wi-Fi so as not to use too much of your data allowance.",
+        "Categories": [{
+          "FriendlyName": "Priority-Pass-app",
+          "Text": "Priority Pass App"
+        }]
+      }, {
+        "Question": "I have more than one Priority Pass membership. Can I link both accounts to one login?",
+        "Answer": "Unfortunately not. You'll need to create two separate accounts and two usernames and passwords. You only need to download the Priority Pass app once, but to view both memberships you'll need to log in and out of each membership dependent on which one you wish to view.",
+        "Categories": [{
+          "FriendlyName": "Priority-Pass-app",
+          "Text": "Priority Pass App"
+        }]
+      }]
+    }, {
+      "Category": {
+        "FriendlyName": "FlightAlerts",
+        "Text": "FlightAlerts"
+      },
+      "Items": [{
+        "Question": "How many times can I use FlightAlerts during my membership?",
+        "Answer": "We provide two complimentary uses of FlightAlerts per membership year. Please note that FlightAlerts is currently a beta product and as such it's not possible to purchase additional journeys.",
+        "Categories": [{
+          "FriendlyName": "FlightAlerts",
+          "Text": "FlightAlerts"
+        }]
+      }, {
+        "Question": "Where can I update the details of the people I want to keep informed of my flight's itinerary?",
+        "Answer": "You can update details within your online account on our website or via the logged in area of the Priority Pass app.",
+        "Categories": [{
+          "FriendlyName": "FlightAlerts",
+          "Text": "FlightAlerts"
+        }]
+      }, {
+        "Question": "What does FlighAlerts cost me? Is it included in my membership?",
+        "Answer": "Two uses of FlightAlerts are included within your annual Priority Pass membership at no extra cost. Please note, however, that as this is currently a beta product it's not yet possible to purchase additional uses.",
+        "Categories": [{
+          "FriendlyName": "FlightAlerts",
+          "Text": "FlightAlerts"
+        }]
+      }]
+    }, {
+      "Category": {
+        "FriendlyName": "Priority-Pass-Select",
+        "Text": "Priority Pass Select"
+      },
+      "Items": [{
+        "Question": "How do I become a Priority Pass Select Member?",
+        "Answer": "If you live in the U.S. and receive your Priority Pass membership from a U.S. financial institution you may be issued with a Priority Pass Select membership card.",
+        "Categories": [{
+          "FriendlyName": "Priority-Pass-Select",
+          "Text": "Priority Pass Select"
+        }]
+      }, {
+        "Question": "Where can I find out what lounges I can access on my Priority Pass Select membership?",
+        "Answer": "You can view lounges on the Priority Pass Select program at prioritypass.com/select or by using the Lounge Finder within the Priority Pass app.",
+        "Categories": [{
+          "FriendlyName": "Priority-Pass-Select",
+          "Text": "Priority Pass Select"
+        }]
+      }]
+    }]
+  }
+}
