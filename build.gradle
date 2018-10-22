@@ -36,7 +36,7 @@ task cucumberAndroidDeviceTests() {
             systemProperty "spring.profiles.active", "APP"
             main = "cucumber.api.cli.Main"
             classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
-            args = ['--tags', '@ANDROID', '--plugin', 'html:target/tcg/AndroidDevice', '--glue', 'com.tcg.automation', 'src/test/resources']
+            args = ['--tags', '@ANDROID1', '--plugin', 'html:target/tcg/AndroidDevice', '--glue', 'com.tcg.automation', 'src/test/resources']
         }
     }
 }

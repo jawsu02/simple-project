@@ -34,7 +34,7 @@ public class AndroidDriverFactory implements FactoryBean<AndroidDriver> {
 
         if (System.getProperty("REAL_DEVICE").equals("TRUE")) {
             capabilities.setCapability("deviceName", sessionVariablesApp.getAndroidDevice());
-            capabilities.setCapability("platformVersion", sessionVariablesApp.getAndroidOs());
+//            capabilities.setCapability("platformVersion", sessionVariablesApp.getAndroidOs());
         } else {
             capabilities.setCapability("deviceName", "Android Emulator");
             capabilities.setCapability("avd", "Nexus_6_API_26");

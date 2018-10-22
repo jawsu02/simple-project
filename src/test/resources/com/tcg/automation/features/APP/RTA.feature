@@ -6,6 +6,10 @@ Feature: Real Time Allocation
   Background:
     Given i launch the app
 
+  @App @RTA @IOS @ANDROID1
+  Scenario: RTA is enabled
+    Given i navigate to ACCOUNT tab
+
   @App @RTA @IOS @ANDROID
   Scenario: RTA is enabled
     Given i navigate to ACCOUNT tab

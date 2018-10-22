@@ -11,6 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 
+@Profile("!APP")
 @Component
 public class UriResources {
 
