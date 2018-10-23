@@ -1,0 +1,82 @@
+[
+  {
+    "TokenId": 17246408,
+    "DeviceId": "f07a13984f6d116a",
+    "ValidFrom": "2018-02-08T00:00:00",
+    "ValidTo": "2018-09-25T00:00:00",
+    "Status": "Allocated",
+    "Href": "http://uat-api-redemption.collinsonis.com/v1/member/8101105/token/17246408"
+  },
+  {
+    "TokenId": 24042677,
+    "DeviceId": "f07a13984f6d116a",
+    "ValidFrom": "2018-02-08T00:00:00",
+    "ValidTo": "2018-09-25T00:00:00",
+    "Status": "Allocated",
+    "Href": "http://uat-api-redemption.collinsonis.com/v1/member/8101105/token/24042677"
+  },
+  {
+    "TokenId": 1007432,
+    "DeviceId": "f07a13984f6d116a",
+    "ValidFrom": "2018-02-08T00:00:00",
+    "ValidTo": "2018-09-25T00:00:00",
+    "Status": "Allocated",
+    "Href": "http://uat-api-redemption.collinsonis.com/v1/member/8101105/token/1007432"
+  },
+  {
+    "TokenId": 6705424,
+    "DeviceId": "f07a13984f6d116a",
+    "ValidFrom": "2018-02-08T00:00:00",
+    "ValidTo": "2018-09-25T00:00:00",
+    "Status": "Allocated",
+    "Href": "http://uat-api-redemption.collinsonis.com/v1/member/8101105/token/6705424"
+  },
+  {
+    "TokenId": 22742047,
+    "DeviceId": "f07a13984f6d116a",
+    "ValidFrom": "2018-02-08T00:00:00",
+    "ValidTo": "2018-09-25T00:00:00",
+    "Status": "Allocated",
+    "Href": "http://uat-api-redemption.collinsonis.com/v1/member/8101105/token/22742047"
+  },
+  {
+    "TokenId": 7290248,
+    "DeviceId": "f07a13984f6d116a",
+    "ValidFrom": "2018-02-08T00:00:00",
+    "ValidTo": "2018-09-25T00:00:00",
+    "Status": "Allocated",
+    "Href": "http://uat-api-redemption.collinsonis.com/v1/member/8101105/token/7290248"
+  },
+  {
+    "TokenId": 17079485,
+    "DeviceId": "f07a13984f6d116a",
+    "ValidFrom": "2018-02-08T00:00:00",
+    "ValidTo": "2018-09-25T00:00:00",
+    "Status": "Allocated",
+    "Href": "http://uat-api-redemption.collinsonis.com/v1/member/8101105/token/17079485"
+  },
+  {
+    "TokenId": 2626595,
+    "DeviceId": "f07a13984f6d116a",
+    "ValidFrom": "2018-02-08T00:00:00",
+    "ValidTo": "2018-09-25T00:00:00",
+    "Status": "Allocated",
+    "Href": "http://uat-api-redemption.collinsonis.com/v1/member/8101105/token/2626595"
+  },
+  {
+    "TokenId": 3873126,
+    "DeviceId": "f07a13984f6d116a",
+    "ValidFrom": "2018-02-08T00:00:00",
+    "ValidTo": "2018-09-25T00:00:00",
+    "Status": "Allocated",
+    "Href": "http://uat-api-redemption.collinsonis.com/v1/member/8101105/token/3873126"
+  },
+  {
+    "TokenId": 25120161,
+    "DeviceId": "f07a13984f6d116a",
+    "ValidFrom": "2018-02-08T00:00:00",
+    "ValidTo": "2018-09-25T00:00:00",
+    "Status": "Allocated",
+    "Href": "http://uat-api-redemption.collinsonis.com/v1/member/8101105/token/25120161"
+  }
+]

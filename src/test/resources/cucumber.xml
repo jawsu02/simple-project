@@ -7,29 +7,29 @@
         http://www.springframework.org/schema/context/spring-context.xsd">
 
     <context:annotation-config/>
-    <context:component-scan base-package="com.tcg.automation"/>
+    <context:component-scan base-package="com.myo2.automation"/>
 
     <beans profile="APP">
-        <context:property-placeholder location="com/tcg/automation/config/config-app.properties" order="1"
+        <context:property-placeholder location="com/myo2/automation/config/config-app.properties" order="1"
                                       ignore-unresolvable="true"/>
     </beans>
 
-    <!--<context:property-placeholder location="com/tcg/automation/config/config.properties"/>-->
+    <!--<context:property-placeholder location="com/myo2/automation/config/config.properties"/>-->
     <beans profile="DEV">
-        <context:property-placeholder location="com/tcg/automation/config/url.properties"/>
-        <context:property-placeholder location="com/tcg/automation/config/config-dev.properties" order="1"
+        <context:property-placeholder location="com/myo2/automation/config/url.properties"/>
+        <context:property-placeholder location="com/myo2/automation/config/config-dev.properties" order="1"
                                       ignore-unresolvable="true"/>
     </beans>
 
     <beans profile="QA">
-        <context:property-placeholder location="com/tcg/automation/config/url.properties"/>
-        <context:property-placeholder location="com/tcg/automation/config/config-qa.properties" order="1"
+        <context:property-placeholder location="com/myo2/automation/config/url.properties"/>
+        <context:property-placeholder location="com/myo2/automation/config/config-qa.properties" order="1"
                                       ignore-unresolvable="true"/>
     </beans>
 
     <beans profile="UAT">
-        <context:property-placeholder location="com/tcg/automation/config/url.properties"/>
-        <context:property-placeholder location="com/tcg/automation/config/config-uat.properties" order="1"
+        <context:property-placeholder location="com/myo2/automation/config/url.properties"/>
+        <context:property-placeholder location="com/myo2/automation/config/config-uat.properties" order="1"
                                       ignore-unresolvable="true"/>
     </beans>
 

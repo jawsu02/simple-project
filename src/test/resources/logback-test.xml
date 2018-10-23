@@ -6,7 +6,7 @@
         </encoder>
     </appender>
 
-    <logger name="com.tcg.automation" level="INFO"/>
+    <logger name="com.myo2.automation" level="INFO"/>
     <logger name="org.apache.http" level="INFO"/>
 
     <root level="WARN">

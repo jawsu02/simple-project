@@ -3,7 +3,7 @@ plugins {
 }
 apply plugin: 'java'
 
-group = 'com.tcg.automation'
+group = 'com.myo2.automation'
 version = '1.0-SNAPSHOT'
 description = "All In One"
 sourceCompatibility = 1.8
@@ -22,7 +22,7 @@ task cucumberAndroidEmulatorTests() {
             systemProperty "spring.profiles.active", "APP"
             main = "cucumber.api.cli.Main"
             classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
-            args = ['--tags', '@ANDROID', '--plugin', 'html:target/tcg/AndroidEmulator', '--glue', 'com.tcg.automation', 'src/test/resources']
+            args = ['--tags', '@ANDROID', '--plugin', 'html:target/myo2/AndroidEmulator', '--glue', 'com.myo2.automation', 'src/test/resources']
         }
     }
 }
@@ -36,7 +36,7 @@ task cucumberAndroidDeviceTests() {
             systemProperty "spring.profiles.active", "APP"
             main = "cucumber.api.cli.Main"
             classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
-            args = ['--tags', '@ANDROID1', '--plugin', 'html:target/tcg/AndroidDevice', '--glue', 'com.tcg.automation', 'src/test/resources']
+            args = ['--tags', '@ANDROID1', '--plugin', 'html:target/myo2/AndroidDevice', '--glue', 'com.myo2.automation', 'src/test/resources']
         }
     }
 }
@@ -50,7 +50,7 @@ task cucumberIOSSimulatorTests() {
             systemProperty "spring.profiles.active", "APP"
             main = "cucumber.api.cli.Main"
             classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
-            args = ['--tags', '@IOS', '--plugin', 'html:target/tcg/iOSSimulator', '--glue', 'com.tcg.automation', 'src/test/resources']
+            args = ['--tags', '@IOS', '--plugin', 'html:target/myo2/iOSSimulator', '--glue', 'com.myo2.automation', 'src/test/resources']
         }
     }
 }
@@ -64,7 +64,7 @@ task cucumberIOSDeviceTests() {
             systemProperty "spring.profiles.active", "APP"
             main = "cucumber.api.cli.Main"
             classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
-            args = ['--tags', '@IOS', '--plugin', 'html:target/tcg/iOSDevice', '--glue', 'com.tcg.automation', 'src/test/resources']
+            args = ['--tags', '@IOS', '--plugin', 'html:target/myo2/iOSDevice', '--glue', 'com.myo2.automation', 'src/test/resources']
         }
     }
 }
@@ -77,7 +77,7 @@ task RunWebTests() {
             systemProperty "spring.profiles.active", "APP"
             main = "cucumber.api.cli.Main"
             classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
-            args = ['--tags', '@Test', '--plugin', 'html:target/tcg/WEB', '--glue', 'com.tcg.automation', 'src/test/resources']
+            args = ['--tags', '@Test', '--plugin', 'html:target/myo2/WEB', '--glue', 'com.myo2.automation', 'src/test/resources']
         }
     }
 }
@@ -89,7 +89,7 @@ task RunApiTests() {
             systemProperty "spring.profiles.active", "UAT"
             main = "cucumber.api.cli.Main"
             classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
-            args = ['--tags', '@Test', '--plugin', 'html:target/tcg/ApiTestsOnUAT', '--glue', 'com.tcg.automation', 'src/test/resources']
+            args = ['--tags', '@Test', '--plugin', 'html:target/myo2/ApiTestsOnUAT', '--glue', 'com.myo2.automation', 'src/test/resources']
         }
     }
 }
@@ -104,7 +104,7 @@ task RunAppiumTestsAgainstMock() {
             systemProperty "spring.profiles.active", "APP"
             main = "cucumber.api.cli.Main"
             classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
-            args = ['--tags', '@Test', '--plugin', 'html:target/tcg/Test', '--glue', 'com.tcg.automation', 'src/test/resources']
+            args = ['--tags', '@Test', '--plugin', 'html:target/myo2/Test', '--glue', 'com.myo2.automation', 'src/test/resources']
         }
     }
 }
